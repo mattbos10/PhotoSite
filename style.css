@@ -12,11 +12,7 @@ audio {
     width: 33%;
 }
 
-audio:hover {
-    audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);}
-}
-
- .end {
+.end {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     color: white;
@@ -30,7 +26,7 @@ audio:hover {
     margin: auto;
  } 
 
-  p {
+p {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     color: white;
@@ -48,11 +44,11 @@ audio:hover {
     width: 22.5%;
     height: 300px;
     margin: 1.25%;
-  float: left;
-  -webkit-filter: blur(1px);
-	filter: blur(1px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    float: left;
+    -webkit-filter: blur(0.5px);
+	  filter: blur(0.5px);
+	  -webkit-transition: .3s ease-in-out;
+	  transition: .3s ease-in-out;
 }
 
 img:hover {
