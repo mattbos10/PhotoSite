@@ -42,7 +42,8 @@ p {
   
   img {
     width: 22.5%;
-    height: 300px;
+    height: auto;
+    max-height: 300px;
     margin: 1.25%;
     float: left;
     -webkit-filter: blur(0.5px);
