@@ -7,9 +7,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 audio {
     width: 33%;
 }
+
+audio:hover {
+    audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);}
+}
+
  .end {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -22,8 +28,8 @@ audio {
     padding: 10px 0;
     width: 47.5%;
     margin: auto;
-
  } 
+
   p {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -51,7 +57,7 @@ audio {
   
   img {
     /* 22.5 * 4 = 90 */
-    width: 22%;
+    width: 22.5%;
     height: 300px;
     /* 1.25 * 2 * 4 = 10 */
     margin: 1.25%;
@@ -68,6 +74,7 @@ audio {
 img:hover {
     -webkit-filter: blur(0);
 	filter: blur(0);
+    transform: scale(1.2); /* (150% zoom)*/
 }
 
 video {
