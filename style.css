@@ -1,0 +1,53 @@
+body {
+    background-image: url(background.mp4);
+  }
+  
+  p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
+    /* font-weight: 700; */
+    font-size: 4vw; 
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 5px solid white;
+    padding: 10px 0;
+  
+    /* Width of two images */
+    /* 22.5 * 2 = 45 */
+    /* Width between two images */
+    /* 1.25 * 2 = 2.5 */
+    /* Width of p element (AKA Bottom border) */
+    /* 45 + 2.5 = 47.5 */
+    width: 47.5%;
+  
+    /* "margin: auto" centers p element horizontally */
+    /* After setting the width on an element text align will no longer apply */
+    margin: auto;
+  }
+  
+  img {
+    /* 22.5 * 4 = 90 */
+    width: 22%;
+    height: 300px;
+    /* 1.25 * 2 * 4 = 10 */
+    margin: 1.25%;
+    /* 90 + 10 = 100 */
+
+    /* The float css property places an element on the left or right side of its container/parent element, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page. Also it removes "Mystery/Ghost Space" between elements */
+  float: left;
+  border: 3px solid white;
+  border-radius: 10%;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(40%);
+  }
